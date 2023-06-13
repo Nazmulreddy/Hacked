@@ -414,7 +414,7 @@ class Main:
 		print("\033[1;32m [1] First Follow Facebook Account")
 		print("\033[1;33m [2] Exit")
 		print("")
-		NAZMUL REDDY = input("\n\033[1;36m  Chose ==> \033[1;32m")
+		REDDY = input("\n\033[1;36m  Chose ==> \033[1;32m")
 		if NAZMUL REDDY in ["", " "]:
 			exit()
 		elif NAZMUL REDDY in ["2", "02"]:
