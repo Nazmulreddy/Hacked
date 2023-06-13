@@ -415,12 +415,12 @@ class Main:
 		print("\033[1;33m [2] Exit")
 		print("")
 		REDDY = input("\n\033[1;36m  Chose ==> \033[1;32m")
-		if NAZMUL REDDY in ["", " "]:
+		if REDDY in ["", " "]:
 			exit()
-		elif NAZMUL REDDY in ["2", "02"]:
+		elif REDDY in ["2", "02"]:
 			print("    Thanks🥰♥️")
 			exit()
-		elif NAZMUL REDDY in ["1", "01"]:
+		elif REDDY in ["1", "01"]:
 			os.system("xdg-open https://www.facebook.com/Nazmulreddy")
 			print("")
 			time.sleep(2.0)
